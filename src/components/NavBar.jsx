@@ -1,7 +1,7 @@
 
 // import {Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
-import image from './IMAGE/matrice.png';
+import image from './IMAGE/unicorn.webp';
 import "./NavBar.css";
 
 

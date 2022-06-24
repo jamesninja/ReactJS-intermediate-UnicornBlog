@@ -1,6 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useState } from 'react';
+import NavBar from './NavBar';
+// import Search from "./Search";
 import "./Upload.css";
 
 const RegisterForm = () => {
@@ -24,8 +26,9 @@ const RegisterForm = () => {
   }
   
   return (
+   
     <form onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}>
-     
+     <NavBar/>
      <label>Title</label>
       <div classNam ="to-Title">
         <input type="text" name="title" {...register('article')} />
