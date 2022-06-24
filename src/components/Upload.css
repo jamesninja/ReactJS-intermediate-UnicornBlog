@@ -1,0 +1,12 @@
+
+form{
+    padding: 200px;
+    margin: 100px 150px 100px 150px;
+    background-color: rgb(135, 142, 142);
+}
+
+button {
+    /* font-family : inherit; */
+    font-size   : 150%;
+  }
+

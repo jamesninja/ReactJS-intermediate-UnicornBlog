@@ -1,0 +1,10 @@
+ul{
+display: flex;
+flex-direction: row;
+background-color: blue;
+}
+
+.to-picture{
+    display: flex;
+    background-color: blue;
+}
